@@ -135,7 +135,14 @@
         .links a:hover {
             background: #f0f0f0;
         }
-       
+        .abstract-text {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #333;
+            text-align: justify;
+            margin-top: 10px;
+        }
+               
     </style>
 </head>
 <body>
@@ -164,6 +171,17 @@
             <a href="https://arxiv.org/pdf/2504.17070" target="_blank">
                 arXiv Paper
             </a>
+        </p>
+    </div>
+    <div class="section">
+        <h1 class="title">Abstract</h1>
+    
+        <p class="abstract-text">
+            Robots need task planning methods to achieve goals that require more
+            than individual actions. Recently, large language models (LLMs) have demonstrated impressive performance in task planning. LLMs can generate a step-bystep solution using a description of actions and the goal. Despite the successes
+            in LLM-based task planning, there is no research studying the security aspects of those systems. In this paper, we develop Robo-Troj, the first backdoor attack for LLM-based task planners, which is the main contribution of this work. 
+            As a multitrigger attack, Robo-Troj is trained to accommodate the diversity of robot application domains. For instance, one can use unique trigger words, e.g., “herical”, to activate a specific malicious behavior, e.g., cutting hand 
+            on a kitchen robot. In addition, we develop an optimization method for selecting the trigger words that are most effective. Through demonstrating the vulnerability of LLM-based planners, we aim to promote the development of secured robot systems.
         </p>
     </div>
 
